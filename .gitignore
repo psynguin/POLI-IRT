@@ -1,0 +1,12 @@
+# R artifacts
+.Rhistory
+.RData
+.Rproj.user
+.Ruserdata
+
+# Shinylive export directory
+site/
+docs/
+
+# Mac system files
+.DS_Store
