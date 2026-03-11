@@ -31,6 +31,9 @@ jobs:
           shinylive::export("app", "site")
         shell: Rscript {0}
 
+      - name: Disable Jekyll for GitHub Pages
+        run: touch site/.nojekyll
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
